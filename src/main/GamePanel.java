@@ -30,7 +30,7 @@ public class GamePanel extends JPanel {
 	public void updateGame() {
 
 	}
-
+// first i tried to just to do repaint for the game loop but that would not work 
 	public void paintComponent(Graphics g) {
 		super.paintComponent(g);
 		game.render(g);
